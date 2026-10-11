@@ -1,0 +1,14 @@
+# Закрытый сценарий (НЕ ПУБЛИКОВАТЬ). Старт на восточной стене, робот смотрит в стену-соседку.
+name: final_2
+seed: 2202
+grid: [8, 8]
+cell_size: 2.0
+loops: 0.10
+obstacles: 14
+time_limit: 600
+start_timeout: 120
+start: {cell: [7, 4], side: E, yaw_deg: 90}
+stations:
+  - {id: A, cell: [0, 0], side: S, active: true}
+  - {id: B, cell: [2, 7], side: N, active: false}
+  - {id: C, cell: [0, 6], side: W, active: true}

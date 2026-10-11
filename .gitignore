@@ -1,0 +1,7 @@
+src/solution/build/
+src/solution/install/
+src/solution/log/
+__pycache__/
+*.pyc
+debug/
+bags/

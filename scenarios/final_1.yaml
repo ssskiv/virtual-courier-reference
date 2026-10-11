@@ -1,0 +1,14 @@
+# Закрытый сценарий (НЕ ПУБЛИКОВАТЬ). Старт в середине южной стены.
+name: final_1
+seed: 1101
+grid: [8, 8]
+cell_size: 2.0
+loops: 0.15
+obstacles: 12
+time_limit: 600
+start_timeout: 120
+start: {cell: [3, 0], side: S, yaw_deg: 90}
+stations:
+  - {id: A, cell: [0, 5], side: W, active: true}
+  - {id: B, cell: [7, 6], side: E, active: true}
+  - {id: C, cell: [5, 7], side: N, active: true}

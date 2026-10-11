@@ -1,0 +1,14 @@
+# Закрытый сценарий (НЕ ПУБЛИКОВАТЬ). Одна активная станция, мало обходных путей.
+name: final_3
+seed: 3303
+grid: [8, 8]
+cell_size: 2.0
+loops: 0.06
+obstacles: 16
+time_limit: 600
+start_timeout: 120
+start: {cell: [0, 7], side: N, yaw_deg: 180}
+stations:
+  - {id: A, cell: [7, 0], side: E, active: true}
+  - {id: B, cell: [4, 0], side: S, active: false}
+  - {id: C, cell: [7, 5], side: E, active: false}
